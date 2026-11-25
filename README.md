@@ -17,8 +17,9 @@ awkwardness, and the punchline lands on the last word.
 
 ## How it works
 
-`main.py` writes that single line to `/output/entry.txt`. Nothing else:
-no network, no secrets, no dependencies beyond the Python standard library.
+`main.py` builds the line from two parts — a setup and a punchline — and
+writes that single line to `/output/entry.txt`. Nothing else: no network,
+no secrets, no dependencies beyond the Python standard library.
 
 ```sh
 python3 main.py
